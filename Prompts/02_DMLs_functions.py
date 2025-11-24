@@ -1,6 +1,6 @@
 import psycopg2
 from psycopg2 import extras
-from typing import Any
+from typing import List, Dict, Any
 
 # --- 💡 개발 환경 설정 (실제 환경에 맞게 수정 필요) ---
 DB_SETTINGS = {
